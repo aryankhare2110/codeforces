@@ -11,8 +11,8 @@ int main () {
         cin >> s;
         int c = 0;
         for (int i = 0; i < s.size(); i++) {
-            if (s[i] == ".") {
-                if (s[i + 1] == "." && s[i+2] == ".") {
+            if (s[i] == '.') {
+                if (s[i + 1] == '.' && s[i+2] == '.') {
                     c = 2;
                     break; 
                 }
